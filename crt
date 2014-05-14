@@ -1,0 +1,45 @@
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Create member</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table width="448" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td colspan="2" align="center" valign="top">Daftar Member</td>
+    </tr>
+    <tr>
+      <td width="145" height="34" valign="top">Username :</td>
+      <td width="303" valign="top"><label for="usr"></label>
+      <input type="text" name="usr" id="usr" /></td>
+    </tr>
+    <tr>
+      <td height="35" valign="top">Password :</td>
+      <td valign="top"><label for="pw"></label>
+      <input type="text" name="pw" id="pw" /></td>
+    </tr>
+    <tr>
+      <td height="35" valign="top">Email : </td>
+      <td valign="top"><label for="em"></label>
+      <input type="text" name="em" id="em" /></td>
+    </tr>
+    <tr>
+      <td height="96" valign="top">Alamat :</td>
+      <td valign="top"><label for="alm"></label>
+      <textarea name="alm" id="alm" cols="45" rows="5"></textarea></td>
+    </tr>
+    <tr>
+      <td height="31" valign="top">Telepon : </td>
+      <td valign="top"><label for="tlp"></label>
+      <input type="text" name="tlp" id="tlp" /></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top"><input type="submit" name="button" id="button" value="Daftar" /></td>
+      <td align="center" valign="top"><input type="submit" name="button2" id="button2" value="Reset" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
